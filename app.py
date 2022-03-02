@@ -16,7 +16,7 @@ def login_page():
 
 @app.route("/about/")
 def about():
-    return render_template('aboutus.html')
+    return redirect("https://github.com/adityapatkar/ml-hub.ai")
 
 @app.route("/dashboard/")
 def dashboard():
